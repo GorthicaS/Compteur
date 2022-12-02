@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vérification en javascript</title>
+</head>
+<body>
+    <h1>Vérification en javascript</h1>
+    <form name="verif" id="verif" method="post">
+        <p>
+            <label>Nom</label>
+            <input type="text" name="Nom" id="Nom" placeholder="Nom">
+        </p>
+        <p>
+        <label>prénom</label>
+        <input type="text" name="nom" id="prénom" placeholder="prénom">
+        </p>
+        <p>
+            <label>Email</label>
+            <input type="email" name="Email" id="Email" placeholder="Email">
+        </p>
+        <p> 
+            <label>Telephone</label>
+            <input type="tel" name="Telephone" id="Telephone" placeholder="Telephone">
+        </p>
+            <label>sujet</label>
+            <input type="text" name="sujet" id="sujet" placeholder="sujet">
+        </p>
+            <label>message</label>
+            <textarea type="text" name="message" maxlength="200" id="message">Votre message</textarea> 
+            <input type="number" name="number" id="number" disabled="disabled" value="200">
+            <input type="hidden" name="cmax" id="cmax" value="200">
+        </p>
+        <p>
+            <button type="submit" name="submit" id="submit">Envoyer</button>
+            <button type="reset" name="reset" id="reset">Effacer</button>
+        </p>
+    </form>
+    <p id="car"></p>
+    <script type="text/javascript" src="assets/JS/verif.js"></script>
+    <script type="text/javascript" src="assets/JS/car.js"></script>
+
+</body>
+</html>
